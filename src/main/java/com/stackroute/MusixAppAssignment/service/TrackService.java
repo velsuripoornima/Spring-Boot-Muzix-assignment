@@ -13,7 +13,7 @@ public interface TrackService {
 
     public Track saveTrack(Track track) throws UserAlreadyExistException;
 
-    public List<com.stackroute.MusixAppAssignment.model.Track> getAllTrack();
+    public List<Track> getAllTrack();
 
     public Track updateTrack(Track track, int id) throws TrackNotFoundException;
 

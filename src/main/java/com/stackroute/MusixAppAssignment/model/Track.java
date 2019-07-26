@@ -1,10 +1,11 @@
 package com.stackroute.MusixAppAssignment.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import lombok.*;
 import org.springframework.beans.factory.annotation.Value;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
 //this annotation is used to create a table
@@ -14,19 +15,21 @@ import javax.persistence.Id;
 @AllArgsConstructor
 @Getter
 @Setter
+
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Track {
     @Id  //representing id as a primary key
-    @Value("1")
+    @GeneratedValue(strategy=GenerationType.AUTO)
+    @Column(name = "id", updatable = false, nullable = false)
     private int id;
 
-    @Value("poornima")
     private String name;
 
-    @Value("omreio")
-    private String content;
+    private String artist;
 
-    @Value("nmoireu")
-    private String status;
+    private String url;
+    private String streamable;
+    private int listeners;
 
 
 
