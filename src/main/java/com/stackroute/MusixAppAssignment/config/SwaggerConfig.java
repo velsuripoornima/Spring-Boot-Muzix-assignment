@@ -9,11 +9,12 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 import static springfox.documentation.builders.PathSelectors.regex;
 
+//it shows it is configurstion file or not
 @Configuration
 @EnableSwagger2
 public class SwaggerConfig {
 
-    @Bean
+    @Bean  //it creates bean
     public Docket trackApi(){
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()

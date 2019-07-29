@@ -19,8 +19,8 @@ public interface TrackService {
 
     public void deleteTrack(int id);
 
-    public List<Track> trackByName(String name);
-
-    public List<Track> searchByNameAndId(int id,String name);
+//    public List<Track> trackByName(String name);
+//
+//    public List<Track> searchByNameAndId(int id,String name);
 
 }

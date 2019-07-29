@@ -26,10 +26,10 @@ public class TrackServiceImpl implements TrackService {
     @Override
     public Track saveTrack(Track track) throws UserAlreadyExistException {
 
-//        /*if(trackRepository.existsById(track.getId())){
+//        if(trackRepository.existsById(track.getId())){
 //
 //            throw new UserAlreadyExistException("track already exist");
-//        }*/
+//        }
 
         Track track1=trackRepository.save(track);
         return track1;
@@ -63,18 +63,18 @@ public class TrackServiceImpl implements TrackService {
         trackRepository.deleteById(id);
 
     }
-
-    @Override
-    public List<Track> trackByName(String name) {
-        List<Track> trackList= trackRepository.findTitleByName(name);
-        return trackList;
-    }
-
-    @Override
-    public List<Track> searchByNameAndId(int id, String name) {
-        List<Track> trackList1=trackRepository.findTitleByName(name,id);
-        return trackList1;
-    }
+//
+//    @Override
+//    public List<Track> trackByName(String name) {
+//        List<Track> trackList= trackRepository.findTitleByName(name);
+//        return trackList;
+//    }
+//
+//    @Override
+//    public List<Track> searchByNameAndId(int id, String name) {
+//        List<Track> trackList1=trackRepository.findTitleByName(name,id);
+//        return trackList1;
+//    }
 
 
 }
