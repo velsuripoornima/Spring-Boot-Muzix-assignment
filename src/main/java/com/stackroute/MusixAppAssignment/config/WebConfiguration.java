@@ -6,9 +6,10 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 
+//it enables configuration file
 @Configuration
 public class WebConfiguration {
-    @Bean
+    @Bean  //creating bean
     ServletRegistrationBean h2ServletRegistration(){
         ServletRegistrationBean registrationBean=new ServletRegistrationBean(new WebServlet());
         registrationBean.addUrlMappings("/console/*");
