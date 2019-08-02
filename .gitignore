@@ -14,6 +14,7 @@ target/
 .sts4-cache
 
 ### IntelliJ IDEA ###
+<<<<<<< HEAD
 .idea
 *.iws
 *.iml
@@ -21,6 +22,14 @@ target/
 mvnw
 mvnw.cmd
 .mvn/
+=======
+.idea/
+*.iws
+*.iml
+*.ipr
+mvnw.cmd
+mvnw
+>>>>>>> db4caa0b733b1a1957d661ffaece41c5c8daeea8
 
 ### NetBeans ###
 /nbproject/private/
