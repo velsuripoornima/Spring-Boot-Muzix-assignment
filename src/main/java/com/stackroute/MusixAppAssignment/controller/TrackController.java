@@ -30,7 +30,7 @@ public class TrackController {
 
     //using the class trackservice
     @Autowired
-    TrackService trackService;
+    private TrackService trackService;
 
     //create constructor for trackservice
     public TrackController(TrackService trackService) {
@@ -43,18 +43,7 @@ public class TrackController {
         trackService.saveTrack(track);
         responseEntity = new ResponseEntity<String>("row added successfully", HttpStatus.CREATED);
         return responseEntity;
-//        try{
-//            //if trackservice having any values it save to track
-//            trackService.saveTrack(track);
-//            responseEntity=new ResponseEntity<String>("row added successfully", HttpStatus.CREATED);
-//            return responseEntity;
-//        }
-//        catch (UserAlreadyExistException e){
-//
-//            //otherwise it will rise an exception
-//            responseEntity=new ResponseEntity<String>(e.getMessage(),HttpStatus.CONFLICT);
-//            return responseEntity;
-//        }
+
     }
 
     @GetMapping("track")
@@ -72,13 +61,7 @@ public class TrackController {
 
         trackService.updateTrack(track, id);
         return new ResponseEntity<String>("updated successfully", HttpStatus.CREATED);
-//        try {
-//            trackService.updateTrack(track, id);
-//            return new ResponseEntity<String>("updated successfully",HttpStatus.CREATED);
-//        }
-//        catch (TrackNotFoundException e){
-//            return new ResponseEntity<String>(e.getMessage(),HttpStatus.CONFLICT);
-//        }
+
 
     }
 
