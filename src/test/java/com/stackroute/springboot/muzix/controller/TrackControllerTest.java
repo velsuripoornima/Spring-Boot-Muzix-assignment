@@ -44,7 +44,7 @@ public class TrackControllerTest {
     }
 
     @Test
-    public void trackController() throws Exception{
+    public void saveTrackControllerTest() throws Exception{
         Track track= new Track(1,"track name","track content","track status");
         when(trackService.saveTrack(track)).thenReturn(track);
         mockMvc.perform(post("/track")
@@ -56,7 +56,7 @@ public class TrackControllerTest {
     }
 
     @Test
-    public void setTrackByName() throws Exception{
+    public void setTrackByNameControllerTest() throws Exception{
         List<Track> track=Arrays.asList(new Track(2,"track","content","status"));
         when(trackService.trackByName("track")).thenReturn(track);
         mockMvc.perform(get("/track/{name}", "track")
@@ -68,22 +68,18 @@ public class TrackControllerTest {
     }
 
     @Test
-    public void getAllTracks() throws Exception{
+    public void getAllTracksTest() throws Exception{
        List<Track> track= Arrays.asList(new Track(1,"track1","content1","status1"),
         new Track(2,"track2","content2","status2"));
         when(trackService.getAllTrack()).thenReturn(track);
         mockMvc.perform(get("/track").contentType(MediaType.APPLICATION_JSON))
                 .andExpect(jsonPath("$", hasSize(2)));
-//                .andExpect((ResultMatcher) jsonPath("$[0].id",is(1)))
-//                .andExpect((ResultMatcher) jsonPath("$[0].name", is(2)))
-//                .andExpect((ResultMatcher) jsonPath("$[1].id", is(2)))
-//                .andExpect((ResultMatcher) jsonPath("$[1].username", is(2)));
         verify(trackService, times(1)).getAllTrack();
         verifyNoMoreInteractions(trackService);
     }
 
     @Test
-    public void deleteTrackById() throws Exception{
+    public void deleteTrackByIdTest() throws Exception{
         Track track= new Track(1,"track name","track content","track status");
         doNothing().when(trackService).deleteTrack(track.getId());
         mockMvc.perform(delete("/track/{id}",1)
@@ -106,6 +102,7 @@ public class TrackControllerTest {
         verify(trackService,times(1)).updateTrack(track,1);
         verifyNoMoreInteractions(trackService);
     }
+    
     public static String asJsonString(final Object obj) {
         try {
             return new ObjectMapper().writeValueAsString(obj);
