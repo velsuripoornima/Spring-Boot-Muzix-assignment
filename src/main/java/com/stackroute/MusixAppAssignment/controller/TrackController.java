@@ -1,28 +1,17 @@
 package com.stackroute.MusixAppAssignment.controller;
 
-import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.stackroute.MusixAppAssignment.model.Root;
 import com.stackroute.MusixAppAssignment.model.Track;
 import com.stackroute.MusixAppAssignment.service.TrackService;
-import org.apache.tomcat.util.json.JSONParser;
-import org.hibernate.validator.internal.util.privilegedactions.GetMethod;
-
-import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
-import springfox.documentation.spring.web.json.Json;
 
-
-import javax.xml.transform.Result;
 import java.util.ArrayList;
 import java.util.List;
-
-import static org.springframework.data.repository.init.ResourceReader.Type.JSON;
 
 @RestController
 public class TrackController {
@@ -42,18 +31,7 @@ public class TrackController {
         trackService.saveTrack(track);
         responseEntity = new ResponseEntity<String>("row added successfully", HttpStatus.CREATED);
         return responseEntity;
-//        try{
-//            //if trackservice having any values it save to track
-//            trackService.saveTrack(track);
-//            responseEntity=new ResponseEntity<String>("row added successfully", HttpStatus.CREATED);
-//            return responseEntity;
-//        }
-//        catch (UserAlreadyExistException e){
-//
-//            //otherwise it will rise an exception
-//            responseEntity=new ResponseEntity<String>(e.getMessage(),HttpStatus.CONFLICT);
-//            return responseEntity;
-//        }
+
     }
 
     @GetMapping("track")
@@ -64,47 +42,43 @@ public class TrackController {
 
     }
 
+    //get track by track,id and updated
     @PutMapping("/track/{id}")
     public ResponseEntity<?> getTrack(@RequestBody Track track, @PathVariable("id") int id) throws Exception {
 
         trackService.updateTrack(track, id);
         return new ResponseEntity<String>("updated successfully", HttpStatus.CREATED);
-//        try {
-//            trackService.updateTrack(track, id);
-//            return new ResponseEntity<String>("updated successfully",HttpStatus.CREATED);
-//        }
-//        catch (TrackNotFoundException e){
-//            return new ResponseEntity<String>(e.getMessage(),HttpStatus.CONFLICT);
-//        }
-
     }
 
+    //delete track by id
     @DeleteMapping("/track/{id}")
     public ResponseEntity<?> deleteTrack(@PathVariable int id) {
         trackService.deleteTrack(id);
         return new ResponseEntity<String>("deleted successfully", HttpStatus.OK);
     }
 
-
+    //getting tracks by name
     @GetMapping("/track/{name}")
     public ResponseEntity<?> trackByName(@PathVariable String name) {
 
         return new ResponseEntity<>(trackService.trackByName(name), HttpStatus.OK);
     }
 
+    //getting tracks by searching name and id
     @GetMapping("/track/{id}/{name}")
     public ResponseEntity<?> searchByName(@PathVariable int id, @PathVariable String name) {
         return new ResponseEntity<>(trackService.searchByNameAndId(id, name), HttpStatus.OK);
 
     }
 
+    //getting all the the tracks in the last.fm tird party api
     @GetMapping("listOfTrack")
     public ResponseEntity<?> getListOfTrackFromLastFm(@RequestParam String url) throws Exception {
-
 
         RestTemplate restTemplate = new RestTemplate();
         String string = restTemplate.getForObject(url,String.class);
         System.out.println(string);
+        //convert jsonobject to java object
         ObjectMapper objectMapper = new ObjectMapper();
         Root root = objectMapper.readValue(string, Root.class);
         List<Track> trackList = root.getResults().getTrackmatches().getTrack();

@@ -10,10 +10,13 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 import static springfox.documentation.builders.PathSelectors.regex;
 
 @Configuration
+//for application it self knows it is a config file
 @EnableSwagger2
+//enabling the swagger
 public class SwaggerConfig {
 
     @Bean
+    //for creating the bean
     public Docket trackApi(){
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()

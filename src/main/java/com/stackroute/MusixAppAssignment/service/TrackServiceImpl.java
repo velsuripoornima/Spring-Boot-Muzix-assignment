@@ -16,8 +16,9 @@ public class TrackServiceImpl implements TrackService {
 
     //overriding all the methods from trackservice interface
     @Autowired
-    TrackRepository trackRepository;
+    private  TrackRepository trackRepository;
 
+    //creating the constructor
     public TrackServiceImpl(TrackRepository trackRepository) {
 
         this.trackRepository = trackRepository;
@@ -26,12 +27,15 @@ public class TrackServiceImpl implements TrackService {
     @Override
     public Track saveTrack(Track track) throws UserAlreadyExistException {
 
-//        /*if(trackRepository.existsById(track.getId())){
-//
-//            throw new UserAlreadyExistException("track already exist");
-//        }*/
+        if(trackRepository.existsById(track.getId())){
+
+            throw new UserAlreadyExistException("track already exist");
+        }
 
         Track track1=trackRepository.save(track);
+        if(track1==null){
+            throw new UserAlreadyExistException("track already exist");
+        }
         return track1;
     }
 
@@ -50,7 +54,9 @@ public class TrackServiceImpl implements TrackService {
 
             throw new TrackNotFoundException("track not found exception");
         }
-
+        if(track == null){
+            throw new TrackNotFoundException("track not found exception");
+        }
         track.setId(id);
 
         return  trackRepository.save(track);
@@ -58,9 +64,11 @@ public class TrackServiceImpl implements TrackService {
     }
 
     @Override
-    public void deleteTrack(int id) {
+    public Track deleteTrack(int id) {
 
+        Optional<Track> track = trackRepository.findById(id);
         trackRepository.deleteById(id);
+        return track.get();
 
     }
 
