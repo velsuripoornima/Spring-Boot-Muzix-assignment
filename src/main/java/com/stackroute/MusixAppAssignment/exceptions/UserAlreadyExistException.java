@@ -2,7 +2,6 @@ package com.stackroute.MusixAppAssignment.exceptions;
 
 public class UserAlreadyExistException extends Exception {
 
-    private String message;
 
     public UserAlreadyExistException() {
 
@@ -11,8 +10,6 @@ public class UserAlreadyExistException extends Exception {
     public UserAlreadyExistException(String message) {
 
         super(message);
-
-        this.message = message;
 
     }
 }
