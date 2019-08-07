@@ -4,6 +4,7 @@ public class Root {
 
     private Results results;
 
+    //creating geeters and setters
     public void setResults(Results results){
         this.results = results;
     }

@@ -13,12 +13,15 @@ import org.springframework.web.client.RestTemplate;
 import java.util.ArrayList;
 import java.util.List;
 
+import static org.springframework.data.repository.init.ResourceReader.Type.JSON;
+
+//we are configuring the rest controller
 @RestController
 public class TrackController {
 
     //using the class trackservice
     @Autowired
-    TrackService trackService;
+    private TrackService trackService;
 
     //create constructor for trackservice
     public TrackController(TrackService trackService) {
@@ -43,6 +46,8 @@ public class TrackController {
     }
 
     //get track by track,id and updated
+
+    //getting track by id
     @PutMapping("/track/{id}")
     public ResponseEntity<?> getTrack(@RequestBody Track track, @PathVariable("id") int id) throws Exception {
 
@@ -71,19 +76,23 @@ public class TrackController {
 
     }
 
-    //getting all the the tracks in the last.fm tird party api
+    //getting list of tack by last.fm
     @GetMapping("listOfTrack")
     public ResponseEntity<?> getListOfTrackFromLastFm(@RequestParam String url) throws Exception {
 
+        //getting all tracks in json formate
         RestTemplate restTemplate = new RestTemplate();
         String string = restTemplate.getForObject(url,String.class);
         System.out.println(string);
-        //convert jsonobject to java object
+        
+        //converting the json object to java object
         ObjectMapper objectMapper = new ObjectMapper();
         Root root = objectMapper.readValue(string, Root.class);
         List<Track> trackList = root.getResults().getTrackmatches().getTrack();
         System.out.println(trackList);
         List<Track> savedTrackList = new ArrayList<>();
+        
+        //getting list of tracks by using for loop
         for (Track user:trackList) {
             Track user1 = trackService.saveTrack(user);
             savedTrackList.add(user1);
