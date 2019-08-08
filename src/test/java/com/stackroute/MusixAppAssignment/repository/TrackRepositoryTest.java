@@ -42,28 +42,10 @@ public class TrackRepositoryTest {
 
 
    @Test
-   public void testSaveUser(){
-       track=new Track(1,"track name","track content","track status");
-       trackRepository.save(track);
-       Track fetchTrack = trackRepository.findById(track.getId()).get();
-       Assert.assertEquals(101,fetchTrack.getId());
-
-   }
-
-   @Test
-   public void testSaveUserFailure(){
-       Track testUser = new Track(2,"Harry","john","Harry123","ieuf",12);
-       trackRepository.save(testUser);
-       Track fetchUser = trackRepository.findById(track.getId()).get();
-       System.out.println(fetchUser);
-       Assert.assertNotSame(testUser,track);
-   }
-
-   @Test
    public void testGetAllUser(){
-       Track u = new Track(1,"Johny","Jenny","Johny12","iwygedu",123);
+       //Track u = new Track(1,"Johny","Jenny","Johny12","iwygedu",123);
        Track u1 = new Track(2,"Harry","Jenny","Harry12","abc",123);
-       trackRepository.save(u);
+       //trackRepository.save(u);
        trackRepository.save(u1);
 
        List<Track> list = trackRepository.findAll();
