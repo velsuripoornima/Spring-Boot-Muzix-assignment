@@ -1,6 +1,7 @@
 package com.stackroute.MusixAppAssignment.repository;
 
 import com.stackroute.MusixAppAssignment.model.Track;
+import com.stackroute.MusixAppAssignment.model.TrackDto;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.mongodb.repository.MongoRepository;
@@ -10,8 +11,7 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository //it is saying as this class is repository class
-
-public interface TrackRepository extends MongoRepository<Track,Integer> {
+public interface TrackRepository extends MongoRepository<TrackDto,Integer> {
 
 
 //    @Query(value = "SELECT * FROM track where name = ?1", nativeQuery = true )

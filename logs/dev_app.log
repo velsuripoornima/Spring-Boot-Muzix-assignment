@@ -1,0 +1,451 @@
+"2019-08-14 09:38:24,829 INFO  [Thread-2] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+""2019-08-14 09:38:24,842 INFO  [Thread-2] org.mongodb.driver.connection : Closed connection [connectionId{localValue:2, serverValue:34}] to 127.0.0.1:27017 because the pool has been closed.
+""2019-08-14 09:38:24,844 INFO  [Thread-2] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+""2019-08-14 09:38:24,845 INFO  [Thread-2] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+""2019-08-14 09:38:24,848 INFO  [Thread-2] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+""2019-08-14 09:38:24,858 INFO  [Thread-2] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+""2019-08-14 09:38:37,370 INFO  [main] com.stackroute.MusixAppAssignment.MusixAppAssignmentApplication : Starting MusixAppAssignmentApplication on poornima-IBM-Wave7 with PID 21672 (/home/poornima/IdeaProjects/Musix-App-Assignment/target/classes started by poornima in /home/poornima/IdeaProjects/Musix-App-Assignment)
+""2019-08-14 09:38:37,379 INFO  [main] com.stackroute.MusixAppAssignment.MusixAppAssignmentApplication : No active profile set, falling back to default profiles: default
+""2019-08-14 09:38:39,381 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+""2019-08-14 09:38:39,384 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+""2019-08-14 09:38:39,460 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport : Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.stackroute.MusixAppAssignment.repository.TrackRepository.
+""2019-08-14 09:38:39,461 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62ms. Found 0 repository interfaces.
+""2019-08-14 09:38:39,497 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+""2019-08-14 09:38:39,498 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+""2019-08-14 09:38:39,546 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48ms. Found 1 repository interfaces.
+""2019-08-14 09:38:40,275 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$86b00bab] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2019-08-14 09:38:40,330 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$63058dd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2019-08-14 09:38:40,790 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8090 (http)
+""2019-08-14 09:38:40,842 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+""2019-08-14 09:38:40,843 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.21]
+""2019-08-14 09:38:41,051 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+""2019-08-14 09:38:41,337 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+""2019-08-14 09:38:41,529 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+""2019-08-14 09:38:41,631 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2019-08-14 09:38:41,722 INFO  [main] org.hibernate.Version : HHH000412: Hibernate Core {5.3.10.Final}
+""2019-08-14 09:38:41,724 INFO  [main] org.hibernate.cfg.Environment : HHH000206: hibernate.properties not found
+""2019-08-14 09:38:41,935 INFO  [main] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+""2019-08-14 09:38:42,129 INFO  [main] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2019-08-14 09:38:42,454 INFO  [main] org.hibernate.tool.schema.internal.SchemaCreatorImpl : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@148b6f95'
+""2019-08-14 09:38:42,458 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2019-08-14 09:38:42,843 INFO  [main] org.mongodb.driver.cluster : Cluster created with settings {hosts=[127.0.0.1:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+""2019-08-14 09:38:42,843 INFO  [main] org.mongodb.driver.cluster : Adding discovered server 127.0.0.1:27017 to client view of cluster
+""2019-08-14 09:38:42,931 INFO  [cluster-ClusterId{value='5d53894a42778454a85e919f', description='null'}-127.0.0.1:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:1, serverValue:35}] to 127.0.0.1:27017
+""2019-08-14 09:38:42,939 INFO  [cluster-ClusterId{value='5d53894a42778454a85e919f', description='null'}-127.0.0.1:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 3]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3629637}
+""2019-08-14 09:38:42,941 INFO  [cluster-ClusterId{value='5d53894a42778454a85e919f', description='null'}-127.0.0.1:27017] org.mongodb.driver.cluster : Discovered cluster type of STANDALONE
+""2019-08-14 09:38:43,901 WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2019-08-14 09:38:44,395 INFO  [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+""2019-08-14 09:38:44,802 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Context refreshed
+""2019-08-14 09:38:44,832 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+""2019-08-14 09:38:44,850 INFO  [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner : Scanning for api listing references
+""2019-08-14 09:38:44,937 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8090 (http) with context path ''
+""2019-08-14 09:38:44,942 INFO  [main] com.stackroute.MusixAppAssignment.MusixAppAssignmentApplication : Started MusixAppAssignmentApplication in 8.693 seconds (JVM running for 9.933)
+""2019-08-14 09:39:17,143 INFO  [http-nio-8090-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2019-08-14 09:39:17,409 INFO  [http-nio-8090-exec-1] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 09:39:17,496 INFO  [http-nio-8090-exec-1] org.mongodb.driver.connection : Opened connection [connectionId{localValue:2, serverValue:36}] to 127.0.0.1:27017
+""2019-08-14 09:40:29,133 INFO  [http-nio-8090-exec-5] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 09:40:29,226 INFO  [http-nio-8090-exec-7] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 09:40:29,227 WARN  [http-nio-8090-exec-7] com.stackroute.MusixAppAssignment.controller.TrackController : This is a warn message
+""2019-08-14 09:40:29,227 ERROR [http-nio-8090-exec-7] com.stackroute.MusixAppAssignment.controller.TrackController : This is an error message
+""2019-08-14 09:40:35,111 INFO  [http-nio-8090-exec-8] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 09:42:09,663 INFO  [http-nio-8090-exec-9] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 09:42:09,688 INFO  [http-nio-8090-exec-1] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 09:42:09,689 WARN  [http-nio-8090-exec-1] com.stackroute.MusixAppAssignment.controller.TrackController : This is a warn message
+""2019-08-14 09:42:09,689 ERROR [http-nio-8090-exec-1] com.stackroute.MusixAppAssignment.controller.TrackController : This is an error message
+""2019-08-14 09:42:27,289 INFO  [http-nio-8090-exec-2] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 09:42:27,318 INFO  [http-nio-8090-exec-3] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 09:42:27,320 WARN  [http-nio-8090-exec-3] com.stackroute.MusixAppAssignment.controller.TrackController : This is a warn message
+""2019-08-14 09:42:27,321 ERROR [http-nio-8090-exec-3] com.stackroute.MusixAppAssignment.controller.TrackController : This is an error message
+""2019-08-14 09:44:16,676 INFO  [http-nio-8090-exec-5] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 09:44:16,801 INFO  [http-nio-8090-exec-6] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 09:44:16,802 WARN  [http-nio-8090-exec-6] com.stackroute.MusixAppAssignment.controller.TrackController : This is a warn message
+""2019-08-14 09:44:16,802 ERROR [http-nio-8090-exec-6] com.stackroute.MusixAppAssignment.controller.TrackController : This is an error message
+""2019-08-14 09:46:40,949 INFO  [Thread-2] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+""2019-08-14 09:46:40,954 INFO  [Thread-2] org.mongodb.driver.connection : Closed connection [connectionId{localValue:2, serverValue:36}] to 127.0.0.1:27017 because the pool has been closed.
+""2019-08-14 09:46:40,957 INFO  [Thread-2] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+""2019-08-14 09:46:40,958 INFO  [Thread-2] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+""2019-08-14 09:46:40,962 INFO  [Thread-2] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+""2019-08-14 09:46:40,970 INFO  [Thread-2] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+""2019-08-14 09:49:23,038 INFO  [main] com.stackroute.MusixAppAssignment.MusixAppAssignmentApplication : Starting MusixAppAssignmentApplication on poornima-IBM-Wave7 with PID 22075 (/home/poornima/IdeaProjects/Musix-App-Assignment/target/classes started by poornima in /home/poornima/IdeaProjects/Musix-App-Assignment)
+""2019-08-14 09:49:23,054 INFO  [main] com.stackroute.MusixAppAssignment.MusixAppAssignmentApplication : No active profile set, falling back to default profiles: default
+""2019-08-14 09:49:25,130 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+""2019-08-14 09:49:25,142 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+""2019-08-14 09:49:25,207 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport : Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.stackroute.MusixAppAssignment.repository.TrackRepository.
+""2019-08-14 09:49:25,208 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54ms. Found 0 repository interfaces.
+""2019-08-14 09:49:25,245 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+""2019-08-14 09:49:25,246 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+""2019-08-14 09:49:25,288 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42ms. Found 1 repository interfaces.
+""2019-08-14 09:49:26,012 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e0add72e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2019-08-14 09:49:26,066 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$602e2460] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2019-08-14 09:49:26,534 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8090 (http)
+""2019-08-14 09:49:26,587 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+""2019-08-14 09:49:26,589 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.21]
+""2019-08-14 09:49:26,802 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+""2019-08-14 09:49:27,057 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+""2019-08-14 09:49:27,314 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+""2019-08-14 09:49:27,442 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2019-08-14 09:49:27,586 INFO  [main] org.hibernate.Version : HHH000412: Hibernate Core {5.3.10.Final}
+""2019-08-14 09:49:27,589 INFO  [main] org.hibernate.cfg.Environment : HHH000206: hibernate.properties not found
+""2019-08-14 09:49:27,975 INFO  [main] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+""2019-08-14 09:49:28,252 INFO  [main] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2019-08-14 09:49:28,768 INFO  [main] org.hibernate.tool.schema.internal.SchemaCreatorImpl : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@47e60b71'
+""2019-08-14 09:49:28,779 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2019-08-14 09:49:29,255 INFO  [main] org.mongodb.driver.cluster : Cluster created with settings {hosts=[127.0.0.1:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+""2019-08-14 09:49:29,258 INFO  [main] org.mongodb.driver.cluster : Adding discovered server 127.0.0.1:27017 to client view of cluster
+""2019-08-14 09:49:29,435 INFO  [cluster-ClusterId{value='5d538bd1427784563b1678a2', description='null'}-127.0.0.1:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:1, serverValue:37}] to 127.0.0.1:27017
+""2019-08-14 09:49:29,459 INFO  [cluster-ClusterId{value='5d538bd1427784563b1678a2', description='null'}-127.0.0.1:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 3]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=11762917}
+""2019-08-14 09:49:29,466 INFO  [cluster-ClusterId{value='5d538bd1427784563b1678a2', description='null'}-127.0.0.1:27017] org.mongodb.driver.cluster : Discovered cluster type of STANDALONE
+""2019-08-14 09:49:30,723 WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2019-08-14 09:49:31,341 INFO  [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+""2019-08-14 09:49:31,818 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Context refreshed
+""2019-08-14 09:49:31,838 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+""2019-08-14 09:49:31,850 INFO  [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner : Scanning for api listing references
+""2019-08-14 09:49:31,908 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8090 (http) with context path ''
+""2019-08-14 09:49:31,912 INFO  [main] com.stackroute.MusixAppAssignment.MusixAppAssignmentApplication : Started MusixAppAssignmentApplication in 10.166 seconds (JVM running for 11.08)
+""2019-08-14 09:49:44,822 INFO  [http-nio-8090-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2019-08-14 09:49:45,262 INFO  [http-nio-8090-exec-1] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 09:49:45,355 INFO  [http-nio-8090-exec-1] org.mongodb.driver.connection : Opened connection [connectionId{localValue:2, serverValue:38}] to 127.0.0.1:27017
+""2019-08-14 09:49:45,616 INFO  [http-nio-8090-exec-2] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 09:49:45,616 WARN  [http-nio-8090-exec-2] com.stackroute.MusixAppAssignment.controller.TrackController : This is a warn message
+""2019-08-14 09:49:45,616 ERROR [http-nio-8090-exec-2] com.stackroute.MusixAppAssignment.controller.TrackController : This is an error message
+""2019-08-14 09:49:45,652 INFO  [http-nio-8090-exec-2] com.stackroute.MusixAppAssignment.service.TrackServiceImpl : ABC City
+""2019-08-14 09:56:04,969 INFO  [Thread-2] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+""2019-08-14 09:56:04,975 INFO  [Thread-2] org.mongodb.driver.connection : Closed connection [connectionId{localValue:2, serverValue:38}] to 127.0.0.1:27017 because the pool has been closed.
+""2019-08-14 09:56:04,977 INFO  [Thread-2] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+""2019-08-14 09:56:04,978 INFO  [Thread-2] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+""2019-08-14 09:56:04,980 INFO  [Thread-2] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+""2019-08-14 09:56:04,984 INFO  [Thread-2] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+""2019-08-14 09:56:12,197 INFO  [main] com.stackroute.MusixAppAssignment.MusixAppAssignmentApplication : Starting MusixAppAssignmentApplication on poornima-IBM-Wave7 with PID 22281 (/home/poornima/IdeaProjects/Musix-App-Assignment/target/classes started by poornima in /home/poornima/IdeaProjects/Musix-App-Assignment)
+""2019-08-14 09:56:12,204 INFO  [main] com.stackroute.MusixAppAssignment.MusixAppAssignmentApplication : No active profile set, falling back to default profiles: default
+""2019-08-14 09:56:15,446 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+""2019-08-14 09:56:15,449 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+""2019-08-14 09:56:15,514 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport : Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.stackroute.MusixAppAssignment.repository.TrackRepository.
+""2019-08-14 09:56:15,515 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54ms. Found 0 repository interfaces.
+""2019-08-14 09:56:15,551 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+""2019-08-14 09:56:15,552 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+""2019-08-14 09:56:15,597 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45ms. Found 1 repository interfaces.
+""2019-08-14 09:56:16,587 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a30f2361] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2019-08-14 09:56:16,652 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$228f7093] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2019-08-14 09:56:17,265 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8090 (http)
+""2019-08-14 09:56:17,319 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+""2019-08-14 09:56:17,320 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.21]
+""2019-08-14 09:56:17,534 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+""2019-08-14 09:56:17,801 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+""2019-08-14 09:56:18,032 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+""2019-08-14 09:56:18,145 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2019-08-14 09:56:18,271 INFO  [main] org.hibernate.Version : HHH000412: Hibernate Core {5.3.10.Final}
+""2019-08-14 09:56:18,273 INFO  [main] org.hibernate.cfg.Environment : HHH000206: hibernate.properties not found
+""2019-08-14 09:56:18,527 INFO  [main] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+""2019-08-14 09:56:18,752 INFO  [main] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2019-08-14 09:56:19,140 INFO  [main] org.hibernate.tool.schema.internal.SchemaCreatorImpl : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@2d3b0978'
+""2019-08-14 09:56:19,145 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2019-08-14 09:56:19,570 INFO  [main] org.mongodb.driver.cluster : Cluster created with settings {hosts=[127.0.0.1:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+""2019-08-14 09:56:19,570 INFO  [main] org.mongodb.driver.cluster : Adding discovered server 127.0.0.1:27017 to client view of cluster
+""2019-08-14 09:56:19,679 INFO  [cluster-ClusterId{value='5d538d6b4277845709ca8b41', description='null'}-127.0.0.1:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:1, serverValue:39}] to 127.0.0.1:27017
+""2019-08-14 09:56:19,689 INFO  [cluster-ClusterId{value='5d538d6b4277845709ca8b41', description='null'}-127.0.0.1:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 3]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=5486769}
+""2019-08-14 09:56:19,693 INFO  [cluster-ClusterId{value='5d538d6b4277845709ca8b41', description='null'}-127.0.0.1:27017] org.mongodb.driver.cluster : Discovered cluster type of STANDALONE
+""2019-08-14 09:56:20,454 WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2019-08-14 09:56:20,913 INFO  [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+""2019-08-14 09:56:21,282 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Context refreshed
+""2019-08-14 09:56:21,311 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+""2019-08-14 09:56:21,336 INFO  [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner : Scanning for api listing references
+""2019-08-14 09:56:21,416 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8090 (http) with context path ''
+""2019-08-14 09:56:21,421 INFO  [main] com.stackroute.MusixAppAssignment.MusixAppAssignmentApplication : Started MusixAppAssignmentApplication in 10.468 seconds (JVM running for 11.361)
+""2019-08-14 09:57:04,523 INFO  [http-nio-8090-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2019-08-14 09:57:04,990 INFO  [http-nio-8090-exec-1] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 09:57:05,105 INFO  [http-nio-8090-exec-1] org.mongodb.driver.connection : Opened connection [connectionId{localValue:2, serverValue:40}] to 127.0.0.1:27017
+""2019-08-14 09:57:05,435 INFO  [http-nio-8090-exec-4] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 09:57:05,435 WARN  [http-nio-8090-exec-4] com.stackroute.MusixAppAssignment.controller.TrackController : This is a warn message
+""2019-08-14 09:57:05,435 ERROR [http-nio-8090-exec-4] com.stackroute.MusixAppAssignment.controller.TrackController : This is an error message
+""2019-08-14 09:57:05,483 INFO  [http-nio-8090-exec-4] com.stackroute.MusixAppAssignment.service.TrackServiceImpl : null
+""2019-08-14 09:57:05,483 INFO  [http-nio-8090-exec-4] com.stackroute.MusixAppAssignment.service.TrackServiceImpl : track Dtonull
+""2019-08-14 10:00:17,395 INFO  [Thread-2] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+""2019-08-14 10:00:17,402 INFO  [Thread-2] org.mongodb.driver.connection : Closed connection [connectionId{localValue:2, serverValue:40}] to 127.0.0.1:27017 because the pool has been closed.
+""2019-08-14 10:00:17,406 INFO  [Thread-2] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+""2019-08-14 10:00:17,406 INFO  [Thread-2] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+""2019-08-14 10:00:17,409 INFO  [Thread-2] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+""2019-08-14 10:00:17,415 INFO  [Thread-2] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+""2019-08-14 10:00:27,737 INFO  [main] com.stackroute.MusixAppAssignment.MusixAppAssignmentApplication : Starting MusixAppAssignmentApplication on poornima-IBM-Wave7 with PID 22532 (/home/poornima/IdeaProjects/Musix-App-Assignment/target/classes started by poornima in /home/poornima/IdeaProjects/Musix-App-Assignment)
+""2019-08-14 10:00:27,795 INFO  [main] com.stackroute.MusixAppAssignment.MusixAppAssignmentApplication : No active profile set, falling back to default profiles: default
+""2019-08-14 10:00:30,523 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+""2019-08-14 10:00:30,526 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+""2019-08-14 10:00:30,633 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport : Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.stackroute.MusixAppAssignment.repository.TrackRepository.
+""2019-08-14 10:00:30,634 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 91ms. Found 0 repository interfaces.
+""2019-08-14 10:00:30,710 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+""2019-08-14 10:00:30,711 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+""2019-08-14 10:00:30,801 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 90ms. Found 1 repository interfaces.
+""2019-08-14 10:00:31,611 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3fe7ef39] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2019-08-14 10:00:31,666 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$bf683c6b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2019-08-14 10:00:32,136 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8090 (http)
+""2019-08-14 10:00:32,188 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+""2019-08-14 10:00:32,189 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.21]
+""2019-08-14 10:00:32,369 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+""2019-08-14 10:00:32,575 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+""2019-08-14 10:00:32,745 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+""2019-08-14 10:00:32,839 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2019-08-14 10:00:32,919 INFO  [main] org.hibernate.Version : HHH000412: Hibernate Core {5.3.10.Final}
+""2019-08-14 10:00:32,920 INFO  [main] org.hibernate.cfg.Environment : HHH000206: hibernate.properties not found
+""2019-08-14 10:00:33,100 INFO  [main] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+""2019-08-14 10:00:33,279 INFO  [main] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2019-08-14 10:00:33,594 INFO  [main] org.hibernate.tool.schema.internal.SchemaCreatorImpl : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@13cf5f8a'
+""2019-08-14 10:00:33,598 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2019-08-14 10:00:34,101 INFO  [main] org.mongodb.driver.cluster : Cluster created with settings {hosts=[127.0.0.1:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+""2019-08-14 10:00:34,102 INFO  [main] org.mongodb.driver.cluster : Adding discovered server 127.0.0.1:27017 to client view of cluster
+""2019-08-14 10:00:34,200 INFO  [cluster-ClusterId{value='5d538e6a42778458046cbe23', description='null'}-127.0.0.1:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:1, serverValue:41}] to 127.0.0.1:27017
+""2019-08-14 10:00:34,209 INFO  [cluster-ClusterId{value='5d538e6a42778458046cbe23', description='null'}-127.0.0.1:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 3]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3467370}
+""2019-08-14 10:00:34,215 INFO  [cluster-ClusterId{value='5d538e6a42778458046cbe23', description='null'}-127.0.0.1:27017] org.mongodb.driver.cluster : Discovered cluster type of STANDALONE
+""2019-08-14 10:00:34,991 WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2019-08-14 10:00:35,448 INFO  [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+""2019-08-14 10:00:35,812 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Context refreshed
+""2019-08-14 10:00:35,838 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+""2019-08-14 10:00:35,853 INFO  [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner : Scanning for api listing references
+""2019-08-14 10:00:35,914 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8090 (http) with context path ''
+""2019-08-14 10:00:35,919 INFO  [main] com.stackroute.MusixAppAssignment.MusixAppAssignmentApplication : Started MusixAppAssignmentApplication in 9.313 seconds (JVM running for 10.112)
+""2019-08-14 10:00:45,271 INFO  [http-nio-8090-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2019-08-14 10:00:45,628 INFO  [http-nio-8090-exec-1] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:00:45,764 INFO  [http-nio-8090-exec-1] org.mongodb.driver.connection : Opened connection [connectionId{localValue:2, serverValue:42}] to 127.0.0.1:27017
+""2019-08-14 10:00:46,066 INFO  [http-nio-8090-exec-2] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:00:46,067 WARN  [http-nio-8090-exec-2] com.stackroute.MusixAppAssignment.controller.TrackController : This is a warn message
+""2019-08-14 10:00:46,067 ERROR [http-nio-8090-exec-2] com.stackroute.MusixAppAssignment.controller.TrackController : This is an error message
+""2019-08-14 10:00:46,104 INFO  [http-nio-8090-exec-2] com.stackroute.MusixAppAssignment.service.TrackServiceImpl : Abschied
+""2019-08-14 10:00:46,105 INFO  [http-nio-8090-exec-2] com.stackroute.MusixAppAssignment.service.TrackServiceImpl : track DtoAbschied
+""2019-08-14 10:20:03,662 INFO  [http-nio-8090-exec-4] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:20:11,755 INFO  [http-nio-8090-exec-6] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:20:11,849 INFO  [http-nio-8090-exec-7] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:20:13,567 INFO  [http-nio-8090-exec-9] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:20:13,589 INFO  [http-nio-8090-exec-10] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:20:14,309 INFO  [http-nio-8090-exec-2] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:20:14,326 INFO  [http-nio-8090-exec-3] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:20:15,153 INFO  [http-nio-8090-exec-5] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:20:15,181 INFO  [http-nio-8090-exec-6] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:20:16,052 INFO  [http-nio-8090-exec-8] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:20:16,079 INFO  [http-nio-8090-exec-9] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:20:16,772 INFO  [http-nio-8090-exec-1] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:20:16,791 INFO  [http-nio-8090-exec-2] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:20:17,283 INFO  [http-nio-8090-exec-4] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:20:17,308 INFO  [http-nio-8090-exec-5] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:20:17,686 INFO  [http-nio-8090-exec-7] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:20:17,709 INFO  [http-nio-8090-exec-8] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:20:17,801 INFO  [http-nio-8090-exec-10] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:20:17,813 INFO  [http-nio-8090-exec-1] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:20:18,138 INFO  [http-nio-8090-exec-3] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:20:18,159 INFO  [http-nio-8090-exec-4] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:20:23,232 INFO  [http-nio-8090-exec-6] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:20:23,253 INFO  [http-nio-8090-exec-7] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:22:26,457 INFO  [http-nio-8090-exec-9] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:22:42,887 INFO  [http-nio-8090-exec-1] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:22:42,936 INFO  [http-nio-8090-exec-2] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:23:21,459 INFO  [http-nio-8090-exec-3] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:23:21,518 INFO  [http-nio-8090-exec-5] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:23:21,518 WARN  [http-nio-8090-exec-5] com.stackroute.MusixAppAssignment.controller.TrackController : This is a warn message
+""2019-08-14 10:23:21,518 ERROR [http-nio-8090-exec-5] com.stackroute.MusixAppAssignment.controller.TrackController : This is an error message
+""2019-08-14 10:23:21,543 INFO  [http-nio-8090-exec-5] com.stackroute.MusixAppAssignment.service.TrackServiceImpl : Gopika Poornima
+""2019-08-14 10:23:21,546 INFO  [http-nio-8090-exec-5] com.stackroute.MusixAppAssignment.service.TrackServiceImpl : track DtoGopika Poornima
+""2019-08-14 10:23:23,793 INFO  [http-nio-8090-exec-6] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:23:35,384 INFO  [http-nio-8090-exec-7] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:23:35,400 INFO  [http-nio-8090-exec-8] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:23:35,400 WARN  [http-nio-8090-exec-8] com.stackroute.MusixAppAssignment.controller.TrackController : This is a warn message
+""2019-08-14 10:23:35,400 ERROR [http-nio-8090-exec-8] com.stackroute.MusixAppAssignment.controller.TrackController : This is an error message
+""2019-08-14 10:23:35,402 INFO  [http-nio-8090-exec-8] com.stackroute.MusixAppAssignment.service.TrackServiceImpl : Poornima
+""2019-08-14 10:23:35,404 INFO  [http-nio-8090-exec-8] com.stackroute.MusixAppAssignment.service.TrackServiceImpl : track DtoPoornima
+""2019-08-14 10:23:37,758 INFO  [http-nio-8090-exec-9] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:24:34,996 INFO  [http-nio-8090-exec-10] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:25:10,088 INFO  [http-nio-8090-exec-1] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:26:01,056 INFO  [http-nio-8090-exec-2] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:26:21,710 INFO  [http-nio-8090-exec-3] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:26:47,397 INFO  [http-nio-8090-exec-4] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:27:53,823 INFO  [http-nio-8090-exec-7] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:27:53,839 INFO  [http-nio-8090-exec-8] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:28:06,742 INFO  [http-nio-8090-exec-9] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:28:06,780 INFO  [http-nio-8090-exec-10] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:28:06,781 WARN  [http-nio-8090-exec-10] com.stackroute.MusixAppAssignment.controller.TrackController : This is a warn message
+""2019-08-14 10:28:06,781 ERROR [http-nio-8090-exec-10] com.stackroute.MusixAppAssignment.controller.TrackController : This is an error message
+""2019-08-14 10:28:06,782 INFO  [http-nio-8090-exec-10] com.stackroute.MusixAppAssignment.service.TrackServiceImpl : Gopika Poornima
+""2019-08-14 10:28:06,783 INFO  [http-nio-8090-exec-10] com.stackroute.MusixAppAssignment.service.TrackServiceImpl : track DtoGopika Poornima
+""2019-08-14 10:28:08,821 INFO  [http-nio-8090-exec-1] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:28:08,839 INFO  [http-nio-8090-exec-2] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:28:08,839 WARN  [http-nio-8090-exec-2] com.stackroute.MusixAppAssignment.controller.TrackController : This is a warn message
+""2019-08-14 10:28:08,840 ERROR [http-nio-8090-exec-2] com.stackroute.MusixAppAssignment.controller.TrackController : This is an error message
+""2019-08-14 10:28:08,841 INFO  [http-nio-8090-exec-2] com.stackroute.MusixAppAssignment.service.TrackServiceImpl : Aggipulla Lanti
+""2019-08-14 10:28:08,842 INFO  [http-nio-8090-exec-2] com.stackroute.MusixAppAssignment.service.TrackServiceImpl : track DtoAggipulla Lanti
+""2019-08-14 10:28:11,809 INFO  [http-nio-8090-exec-3] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:28:11,833 INFO  [http-nio-8090-exec-4] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:28:11,834 WARN  [http-nio-8090-exec-4] com.stackroute.MusixAppAssignment.controller.TrackController : This is a warn message
+""2019-08-14 10:28:11,835 ERROR [http-nio-8090-exec-4] com.stackroute.MusixAppAssignment.controller.TrackController : This is an error message
+""2019-08-14 10:28:11,841 INFO  [http-nio-8090-exec-4] com.stackroute.MusixAppAssignment.service.TrackServiceImpl : Sona Kitna Sona Hai (From "Hero No. 1")
+""2019-08-14 10:28:11,842 INFO  [http-nio-8090-exec-4] com.stackroute.MusixAppAssignment.service.TrackServiceImpl : track DtoSona Kitna Sona Hai (From "Hero No. 1")
+""2019-08-14 10:28:14,884 INFO  [http-nio-8090-exec-5] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:28:31,749 INFO  [http-nio-8090-exec-6] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:28:31,761 INFO  [http-nio-8090-exec-7] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:28:31,761 WARN  [http-nio-8090-exec-7] com.stackroute.MusixAppAssignment.controller.TrackController : This is a warn message
+""2019-08-14 10:28:31,761 ERROR [http-nio-8090-exec-7] com.stackroute.MusixAppAssignment.controller.TrackController : This is an error message
+""2019-08-14 10:28:31,768 INFO  [http-nio-8090-exec-7] com.stackroute.MusixAppAssignment.service.TrackServiceImpl : Akasam Ammayaithe
+""2019-08-14 10:28:31,768 INFO  [http-nio-8090-exec-7] com.stackroute.MusixAppAssignment.service.TrackServiceImpl : track DtoAkasam Ammayaithe
+""2019-08-14 10:28:33,541 INFO  [http-nio-8090-exec-8] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:49:44,682 INFO  [http-nio-8090-exec-10] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 10:50:32,749 INFO  [http-nio-8090-exec-1] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 11:12:29,547 INFO  [http-nio-8090-exec-3] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 11:12:34,214 INFO  [http-nio-8090-exec-4] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 11:12:37,807 INFO  [http-nio-8090-exec-5] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 11:12:42,291 INFO  [http-nio-8090-exec-6] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 11:12:44,559 INFO  [http-nio-8090-exec-8] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 11:12:44,559 WARN  [http-nio-8090-exec-8] com.stackroute.MusixAppAssignment.controller.TrackController : This is a warn message
+""2019-08-14 11:12:44,560 ERROR [http-nio-8090-exec-8] com.stackroute.MusixAppAssignment.controller.TrackController : This is an error message
+""2019-08-14 11:12:44,576 INFO  [http-nio-8090-exec-8] com.stackroute.MusixAppAssignment.service.TrackServiceImpl : Channe Ke Khet Mein
+""2019-08-14 11:12:44,576 INFO  [http-nio-8090-exec-8] com.stackroute.MusixAppAssignment.service.TrackServiceImpl : track DtoChanne Ke Khet Mein
+""2019-08-14 11:12:46,241 INFO  [http-nio-8090-exec-9] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 11:12:48,797 INFO  [http-nio-8090-exec-10] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 11:12:48,800 WARN  [http-nio-8090-exec-10] com.stackroute.MusixAppAssignment.controller.TrackController : This is a warn message
+""2019-08-14 11:12:48,801 ERROR [http-nio-8090-exec-10] com.stackroute.MusixAppAssignment.controller.TrackController : This is an error message
+""2019-08-14 11:12:48,816 INFO  [http-nio-8090-exec-10] com.stackroute.MusixAppAssignment.service.TrackServiceImpl : Gopika Poornima
+""2019-08-14 11:12:48,818 INFO  [http-nio-8090-exec-10] com.stackroute.MusixAppAssignment.service.TrackServiceImpl : track DtoGopika Poornima
+""2019-08-14 11:12:50,250 INFO  [http-nio-8090-exec-1] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 11:12:52,344 INFO  [http-nio-8090-exec-2] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 11:12:52,345 WARN  [http-nio-8090-exec-2] com.stackroute.MusixAppAssignment.controller.TrackController : This is a warn message
+""2019-08-14 11:12:52,346 ERROR [http-nio-8090-exec-2] com.stackroute.MusixAppAssignment.controller.TrackController : This is an error message
+""2019-08-14 11:12:52,348 INFO  [http-nio-8090-exec-2] com.stackroute.MusixAppAssignment.service.TrackServiceImpl : Sona Kitna Sona Hai
+""2019-08-14 11:12:52,348 INFO  [http-nio-8090-exec-2] com.stackroute.MusixAppAssignment.service.TrackServiceImpl : track DtoSona Kitna Sona Hai
+""2019-08-14 11:13:53,007 INFO  [http-nio-8090-exec-4] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 11:13:56,615 INFO  [http-nio-8090-exec-6] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 11:13:56,640 INFO  [http-nio-8090-exec-7] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 11:13:59,720 INFO  [http-nio-8090-exec-9] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 11:13:59,763 INFO  [http-nio-8090-exec-10] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 11:14:03,436 INFO  [http-nio-8090-exec-2] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 11:14:03,462 INFO  [http-nio-8090-exec-3] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 11:14:09,195 INFO  [http-nio-8090-exec-5] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 11:14:09,210 INFO  [http-nio-8090-exec-6] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 11:14:13,146 INFO  [http-nio-8090-exec-8] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 11:14:13,160 INFO  [http-nio-8090-exec-9] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 11:15:55,788 INFO  [http-nio-8090-exec-1] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 11:16:26,326 INFO  [http-nio-8090-exec-2] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 11:16:53,681 INFO  [http-nio-8090-exec-3] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 11:17:35,816 INFO  [http-nio-8090-exec-4] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 11:17:46,180 INFO  [http-nio-8090-exec-5] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 11:27:15,740 INFO  [http-nio-8090-exec-7] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 11:27:32,831 INFO  [http-nio-8090-exec-8] com.stackroute.MusixAppAssignment.controller.TrackController : This is an info message
+""2019-08-14 12:53:25,750 INFO  [Thread-2] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+""2019-08-14 12:53:25,764 INFO  [Thread-2] org.mongodb.driver.connection : Closed connection [connectionId{localValue:2, serverValue:42}] to 127.0.0.1:27017 because the pool has been closed.
+""2019-08-14 12:53:25,766 INFO  [Thread-2] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+""2019-08-14 12:53:25,767 INFO  [Thread-2] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+""2019-08-14 12:53:25,770 INFO  [Thread-2] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+""2019-08-14 12:53:25,776 INFO  [Thread-2] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+""2019-08-14 12:53:37,527 INFO  [main] com.stackroute.MusixAppAssignment.MusixAppAssignmentApplication : Starting MusixAppAssignmentApplication on poornima-IBM-Wave7 with PID 26370 (/home/poornima/IdeaProjects/Musix-App-Assignment/target/classes started by poornima in /home/poornima/IdeaProjects/Musix-App-Assignment)
+""2019-08-14 12:53:37,533 INFO  [main] com.stackroute.MusixAppAssignment.MusixAppAssignmentApplication : No active profile set, falling back to default profiles: default
+""2019-08-14 12:53:39,964 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+""2019-08-14 12:53:39,967 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+""2019-08-14 12:53:40,048 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport : Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.stackroute.MusixAppAssignment.repository.TrackRepository.
+""2019-08-14 12:53:40,053 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72ms. Found 0 repository interfaces.
+""2019-08-14 12:53:40,101 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+""2019-08-14 12:53:40,102 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+""2019-08-14 12:53:40,182 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80ms. Found 1 repository interfaces.
+""2019-08-14 12:53:40,947 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$61591ae7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2019-08-14 12:53:41,047 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$e0d96819] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2019-08-14 12:53:41,728 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8090 (http)
+""2019-08-14 12:53:41,837 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+""2019-08-14 12:53:41,838 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.21]
+""2019-08-14 12:53:42,183 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+""2019-08-14 12:53:42,727 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+""2019-08-14 12:53:43,041 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+""2019-08-14 12:53:43,210 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2019-08-14 12:53:43,303 INFO  [main] org.hibernate.Version : HHH000412: Hibernate Core {5.3.10.Final}
+""2019-08-14 12:53:43,306 INFO  [main] org.hibernate.cfg.Environment : HHH000206: hibernate.properties not found
+""2019-08-14 12:53:43,542 INFO  [main] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+""2019-08-14 12:53:43,837 INFO  [main] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2019-08-14 12:53:44,320 INFO  [main] org.hibernate.tool.schema.internal.SchemaCreatorImpl : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@ace2408'
+""2019-08-14 12:53:44,325 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2019-08-14 12:53:44,808 INFO  [main] org.mongodb.driver.cluster : Cluster created with settings {hosts=[127.0.0.1:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+""2019-08-14 12:53:44,809 INFO  [main] org.mongodb.driver.cluster : Adding discovered server 127.0.0.1:27017 to client view of cluster
+""2019-08-14 12:53:44,934 INFO  [cluster-ClusterId{value='5d53b7004277846702456f1e', description='null'}-127.0.0.1:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:1, serverValue:43}] to 127.0.0.1:27017
+""2019-08-14 12:53:44,949 INFO  [cluster-ClusterId{value='5d53b7004277846702456f1e', description='null'}-127.0.0.1:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 3]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4068213}
+""2019-08-14 12:53:44,952 INFO  [cluster-ClusterId{value='5d53b7004277846702456f1e', description='null'}-127.0.0.1:27017] org.mongodb.driver.cluster : Discovered cluster type of STANDALONE
+""2019-08-14 12:53:45,946 WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2019-08-14 12:53:46,744 INFO  [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+""2019-08-14 12:53:47,396 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Context refreshed
+""2019-08-14 12:53:47,426 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+""2019-08-14 12:53:47,448 INFO  [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner : Scanning for api listing references
+""2019-08-14 12:53:47,526 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8090 (http) with context path ''
+""2019-08-14 12:53:47,533 INFO  [main] com.stackroute.MusixAppAssignment.MusixAppAssignmentApplication : Started MusixAppAssignmentApplication in 11.364 seconds (JVM running for 12.526)
+""2019-08-14 12:54:27,830 INFO  [Thread-2] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+""2019-08-14 12:54:27,838 INFO  [Thread-2] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+""2019-08-14 12:54:27,838 INFO  [Thread-2] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+""2019-08-14 12:54:27,841 INFO  [Thread-2] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+""2019-08-14 12:54:27,851 INFO  [Thread-2] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+""2019-08-14 12:54:34,615 INFO  [main] com.stackroute.MusixAppAssignment.MusixAppAssignmentApplication : Starting MusixAppAssignmentApplication on poornima-IBM-Wave7 with PID 26524 (/home/poornima/IdeaProjects/Musix-App-Assignment/target/classes started by poornima in /home/poornima/IdeaProjects/Musix-App-Assignment)
+""2019-08-14 12:54:34,638 INFO  [main] com.stackroute.MusixAppAssignment.MusixAppAssignmentApplication : No active profile set, falling back to default profiles: default
+""2019-08-14 12:54:37,758 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+""2019-08-14 12:54:37,761 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+""2019-08-14 12:54:37,873 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport : Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.stackroute.MusixAppAssignment.repository.TrackRepository.
+""2019-08-14 12:54:37,874 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 97ms. Found 0 repository interfaces.
+""2019-08-14 12:54:37,911 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+""2019-08-14 12:54:37,912 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+""2019-08-14 12:54:38,006 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 94ms. Found 1 repository interfaces.
+""2019-08-14 12:54:38,720 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$255e5f17] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2019-08-14 12:54:38,804 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$a4deac49] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2019-08-14 12:54:39,232 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8090 (http)
+""2019-08-14 12:54:39,275 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+""2019-08-14 12:54:39,275 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.21]
+""2019-08-14 12:54:39,447 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+""2019-08-14 12:54:39,716 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+""2019-08-14 12:54:39,928 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+""2019-08-14 12:54:40,038 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2019-08-14 12:54:40,135 INFO  [main] org.hibernate.Version : HHH000412: Hibernate Core {5.3.10.Final}
+""2019-08-14 12:54:40,138 INFO  [main] org.hibernate.cfg.Environment : HHH000206: hibernate.properties not found
+""2019-08-14 12:54:40,331 INFO  [main] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+""2019-08-14 12:54:40,561 INFO  [main] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2019-08-14 12:54:40,926 INFO  [main] org.hibernate.tool.schema.internal.SchemaCreatorImpl : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@4449b273'
+""2019-08-14 12:54:40,932 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2019-08-14 12:54:41,303 INFO  [main] org.mongodb.driver.cluster : Cluster created with settings {hosts=[127.0.0.1:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+""2019-08-14 12:54:41,303 INFO  [main] org.mongodb.driver.cluster : Adding discovered server 127.0.0.1:27017 to client view of cluster
+""2019-08-14 12:54:41,417 INFO  [cluster-ClusterId{value='5d53b739427784679c075cd6', description='null'}-127.0.0.1:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:1, serverValue:44}] to 127.0.0.1:27017
+""2019-08-14 12:54:41,440 INFO  [cluster-ClusterId{value='5d53b739427784679c075cd6', description='null'}-127.0.0.1:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 3]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=14029376}
+""2019-08-14 12:54:41,442 INFO  [cluster-ClusterId{value='5d53b739427784679c075cd6', description='null'}-127.0.0.1:27017] org.mongodb.driver.cluster : Discovered cluster type of STANDALONE
+""2019-08-14 12:54:42,404 WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2019-08-14 12:54:42,924 INFO  [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+""2019-08-14 12:54:43,330 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Context refreshed
+""2019-08-14 12:54:43,357 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+""2019-08-14 12:54:43,374 INFO  [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner : Scanning for api listing references
+""2019-08-14 12:54:43,439 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8090 (http) with context path ''
+""2019-08-14 12:54:43,444 INFO  [main] com.stackroute.MusixAppAssignment.MusixAppAssignmentApplication : Started MusixAppAssignmentApplication in 9.889 seconds (JVM running for 10.577)
+""2019-08-14 12:55:04,392 INFO  [http-nio-8090-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2019-08-14 12:55:04,714 INFO  [http-nio-8090-exec-1] com.stackroute.MusixAppAssignment.controller.TrackController : Entered into getAllTrack methond in TrackController
+""2019-08-14 12:55:14,414 INFO  [http-nio-8090-exec-3] com.stackroute.MusixAppAssignment.controller.TrackController : Entered into getAllTrack methond in TrackController
+""2019-08-14 12:55:34,734 INFO  [http-nio-8090-exec-1] com.stackroute.MusixAppAssignment.service.TrackServiceImpl : Entered into get all method in trackServiceImpl
+""2019-08-14 12:55:34,917 INFO  [http-nio-8090-exec-1] org.mongodb.driver.connection : Opened connection [connectionId{localValue:2, serverValue:45}] to 127.0.0.1:27017
+""2019-08-14 12:55:36,870 INFO  [http-nio-8090-exec-2] com.stackroute.MusixAppAssignment.controller.TrackController : Entered into getAllTrack methond in TrackController
+""2019-08-14 12:55:44,414 INFO  [http-nio-8090-exec-3] com.stackroute.MusixAppAssignment.service.TrackServiceImpl : Entered into get all method in trackServiceImpl
+""2019-08-14 12:55:44,430 INFO  [http-nio-8090-exec-4] com.stackroute.MusixAppAssignment.controller.TrackController : Entered into getAllTrack methond in TrackController
+""2019-08-14 12:55:49,821 INFO  [http-nio-8090-exec-6] com.stackroute.MusixAppAssignment.controller.TrackController : Entered into saveTrack method in TrackController
+""2019-08-14 12:55:49,895 INFO  [http-nio-8090-exec-6] com.stackroute.MusixAppAssignment.service.TrackServiceImpl : Poornima
+""2019-08-14 12:55:49,896 INFO  [http-nio-8090-exec-6] com.stackroute.MusixAppAssignment.service.TrackServiceImpl : track DtoPoornima
+""2019-08-14 12:55:52,968 INFO  [http-nio-8090-exec-7] com.stackroute.MusixAppAssignment.controller.TrackController : Entered into getAllTrack methond in TrackController
+""2019-08-14 12:55:54,383 INFO  [http-nio-8090-exec-8] com.stackroute.MusixAppAssignment.controller.TrackController : Entered into getAllTrack methond in TrackController
+""2019-08-14 12:55:55,859 INFO  [http-nio-8090-exec-9] com.stackroute.MusixAppAssignment.controller.TrackController : Entered into getAllTrack methond in TrackController
+""2019-08-14 12:56:06,871 INFO  [http-nio-8090-exec-2] com.stackroute.MusixAppAssignment.service.TrackServiceImpl : Entered into get all method in trackServiceImpl
+""2019-08-14 12:56:10,464 INFO  [http-nio-8090-exec-10] com.stackroute.MusixAppAssignment.controller.TrackController : Entered into getAllTrack methond in TrackController
+""2019-08-14 12:56:14,430 INFO  [http-nio-8090-exec-4] com.stackroute.MusixAppAssignment.service.TrackServiceImpl : Entered into get all method in trackServiceImpl
+""2019-08-14 12:56:22,969 INFO  [http-nio-8090-exec-7] com.stackroute.MusixAppAssignment.service.TrackServiceImpl : Entered into get all method in trackServiceImpl
+""2019-08-14 12:56:24,385 INFO  [http-nio-8090-exec-8] com.stackroute.MusixAppAssignment.service.TrackServiceImpl : Entered into get all method in trackServiceImpl
+""2019-08-14 12:56:25,861 INFO  [http-nio-8090-exec-9] com.stackroute.MusixAppAssignment.service.TrackServiceImpl : Entered into get all method in trackServiceImpl
+""2019-08-14 12:56:40,465 INFO  [http-nio-8090-exec-10] com.stackroute.MusixAppAssignment.service.TrackServiceImpl : Entered into get all method in trackServiceImpl
+""2019-08-14 12:56:48,637 INFO  [http-nio-8090-exec-1] com.stackroute.MusixAppAssignment.controller.TrackController : Entered into getAllTrack methond in TrackController
+""2019-08-14 12:57:18,638 INFO  [http-nio-8090-exec-1] com.stackroute.MusixAppAssignment.service.TrackServiceImpl : Entered into get all method in trackServiceImpl
+""2019-08-14 12:57:26,016 INFO  [http-nio-8090-exec-3] com.stackroute.MusixAppAssignment.controller.TrackController : Entered into saveTrack method in TrackController
+""2019-08-14 12:57:26,019 INFO  [http-nio-8090-exec-3] com.stackroute.MusixAppAssignment.service.TrackServiceImpl : Gopika Poornima
+""2019-08-14 12:57:26,019 INFO  [http-nio-8090-exec-3] com.stackroute.MusixAppAssignment.service.TrackServiceImpl : track DtoGopika Poornima
+""2019-08-14 12:57:27,679 INFO  [http-nio-8090-exec-5] com.stackroute.MusixAppAssignment.controller.TrackController : Entered into getAllTrack methond in TrackController
+""2019-08-14 12:57:57,680 INFO  [http-nio-8090-exec-5] com.stackroute.MusixAppAssignment.service.TrackServiceImpl : Entered into get all method in trackServiceImpl
+""2019-08-14 12:58:18,479 INFO  [http-nio-8090-exec-6] com.stackroute.MusixAppAssignment.controller.TrackController : Entered into getAllTrack methond in TrackController
+""2019-08-14 12:58:48,479 INFO  [http-nio-8090-exec-6] com.stackroute.MusixAppAssignment.service.TrackServiceImpl : Entered into get all method in trackServiceImpl
+"

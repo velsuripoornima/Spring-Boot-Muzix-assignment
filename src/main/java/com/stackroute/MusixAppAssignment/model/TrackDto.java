@@ -1,19 +1,16 @@
 package com.stackroute.MusixAppAssignment.model;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
-import lombok.*;
-import org.springframework.beans.factory.annotation.Value;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.Setter;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import javax.persistence.*;
-
+import javax.persistence.Id;
 @Document
-//this annotation is used to create a table
-@Data
-@JsonIgnoreProperties(ignoreUnknown = true)
-public class Track {
+@Builder
 
+public class TrackDto {
     private static int counter = 0;
 
     private int id;
@@ -21,25 +18,22 @@ public class Track {
     private String name;
 
     private String artist;
-
     private String url;
     private String streamable;
     private int listeners;
 
-    public Track() {
+    public TrackDto() {
         id = ++counter;
     }
-//creating the parameterized construcot
-    public Track(int id, String name, String artist, String url, String streamable, int listeners) {
-        this.id = id;
-        this.name = name;
-        this.artist = artist;
-        this.url = url;
-        this.streamable = streamable;
-        this.listeners = listeners;
+
+    public static int getCounter() {
+        return counter;
     }
 
-    //creating the all getters and setters
+    public static void setCounter(int counter) {
+        TrackDto.counter = counter;
+    }
+
     public int getId() {
         return id;
     }
@@ -87,5 +81,4 @@ public class Track {
     public void setListeners(int listeners) {
         this.listeners = listeners;
     }
-
 }
